@@ -31,6 +31,7 @@ php artisan migration --path database/migrations/landlord/<datestamp>_create_lan
 
 #### Spatie/laravel-multitenancy
 Documentation: https://docs.spatie.be/laravel-multitenancy/v1/introduction/
+
 Video Tutorial: https://youtu.be/1bucfsyAZtI
 
 
