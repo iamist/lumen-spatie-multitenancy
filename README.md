@@ -24,7 +24,7 @@ $ php artisan vendor:pubish --provider Spatie\Multitenancy\MultitenancyServicePr
 
 8.) Start migration through
 ```bash
-php artisan migration --path database/migrations/landlord/<datestamp>_create_landloard_tenants_table.php --database landlord`
+php artisan migration --path database/migrations/landlord/<datestamp>_create_landloard_tenants_table.php --database landlord
 ```
 
 ### Links
