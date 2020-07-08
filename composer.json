@@ -7,6 +7,7 @@
     "require": {
         "php": "^7.2.5",
         "laravel/lumen-framework": "^7.0",
+        "laravelista/lumen-vendor-publish": "^7.0",
         "spatie/laravel-multitenancy": "^1.4"
     },
     "require-dev": {
@@ -21,7 +22,10 @@
         ],
         "psr-4": {
             "App\\": "app/"
-        }
+        },
+        "files": [
+            "helpers/laravel.php"
+        ]
     },
     "autoload-dev": {
         "classmap": [
